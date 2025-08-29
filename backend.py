@@ -4,6 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager  # Import webdriver_manager
 import time
 import os
 import pandas as pd
@@ -74,7 +75,8 @@ def fetch_and_download(shift):
             "safebrowsing.enabled": True
         })
 
-        driver = webdriver.Chrome(options=options)
+        # Automatically download and set up ChromeDriver
+        driver = webdriver.Chrome(service=webdriver.chrome.service.Service(ChromeDriverManager().install()), options=options)
         driver.set_page_load_timeout(30)
         
         logging.info("Navigating to URL")
@@ -162,7 +164,7 @@ def process_excel(file_path, shift):
             raise ValueError("Failed to read Excel file with any engine")
         
         # Find header row
-        required_cols = ["Track Id", "NTF?", "Family", "Process", "Testcode", "Test Val", "LL", "UL", "2nd P/F", "3rd P/F"]
+        required_cols = ["Track Id", "NTF?", "Family", "Process", "Testcode", "Test Val", "LL", "UL", "2nd P/F", "3rd P/F", "Station"]
         header_row = None
         header_values = None
         for idx in range(len(df)):
@@ -254,11 +256,11 @@ def schedule_runs():
     # Schedule subsequent runs
     while True:
         try:
-            time.sleep(1800)  # Wait 30 minutes
+            time.sleep(600)  # Wait 10 minutes
             run_cycle()
         except Exception as e:
             logging.error(f"Scheduled run failed: {str(e)}")
-            logging.info("Continuing to next cycle in 30 minutes...")
+            logging.info("Continuing to next cycle in 10 minutes...")
             continue
 
 def signal_handler(sig, frame):

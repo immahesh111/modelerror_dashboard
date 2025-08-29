@@ -501,7 +501,7 @@ def show_footer():
         <div style='text-align: center; color: var(--text-color, #666); padding: 20px; font-size: 0.9rem;'>
             <p>🏭 <strong>Manufacturing Error Dashboard</strong> | 
             Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} | 
-            Built with ❤️ for Production Excellence</p>
+            Built with ❤️ By Process Team</p>
         </div>
         """,
         unsafe_allow_html=True
