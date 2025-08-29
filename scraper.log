@@ -1,0 +1,93 @@
+2025-08-28 17:06:52,555 - INFO - Starting scheduler...
+2025-08-28 17:10:50,951 - INFO - Received shutdown signal, cleaning up...
+2025-08-28 17:10:55,080 - INFO - Starting scheduler...
+2025-08-28 17:11:06,199 - INFO - Received shutdown signal, cleaning up...
+2025-08-28 17:14:15,965 - INFO - Starting script at 2025-08-28 17:14:15.965437
+2025-08-28 17:14:15,966 - INFO - Starting cycle for Shift 1 at 2025-08-28 17:14:15.965437
+2025-08-28 17:14:15,966 - INFO - Cleared old file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_06_24_40.xlsx
+2025-08-28 17:14:20,387 - INFO - Navigating to URL
+2025-08-28 17:14:26,290 - INFO - Selected Sector 68
+2025-08-28 17:14:30,474 - INFO - Set dates to today
+2025-08-28 17:14:31,528 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[2]/td[6]/input to 07:00:00
+2025-08-28 17:14:32,573 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[3]/td[6]/input to 19:00:00
+2025-08-28 17:14:40,199 - INFO - Clicked Generate Report
+2025-08-28 17:14:42,201 - INFO - Downloaded file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_06_44_39.xlsx
+2025-08-28 17:14:44,785 - INFO - Selected header row 208: ['Datetime', 'Track Id', 'NTF?', 'Technology', 'Family', 'Model', 'Process', 'Station', 'Fixture', 'Testcode', 'Testcode Desc', 'P/F', 'Fail Desc', 'Test Val', 'LL', 'UL', '2nd Datetime', '2nd Station', '2nd Fixture', '2nd P/F', '2nd Testcode', '2nd TestVal', '3rd Datetime', '3rd Station', '3rd Fixture', '3rd P/F', '3rd Testcode', '3rd TestVal', '4th Datetime', '4th Station', '4th Fixture', '4th P/F', '4th Testcode', '4th TestVal', '5th Datetime', '5th Station', '5th Fixture', '5th P/F', '5th Testcode', '5th TestVal']
+2025-08-28 17:14:44,921 - INFO - Filtered 134 unique rows with blank NTF?
+2025-08-28 17:14:44,921 - INFO - Found models: ['MANILA24_INDIA', 'NICE25_POWER_INDIA', 'HOUSTON25_NA_SUPER', 'PRADO25_NA_SUPER', 'MILOS25_INDIA', 'EXPLORER25_INDIA', 'MALMO24_INDIA', 'LAMULITE24_INDIA', 'CANCUN5GNA24']
+2025-08-28 17:14:45,469 - INFO - Cleared previous data for model MANILA24_INDIA
+2025-08-28 17:14:45,555 - INFO - Pushed 13 unique records for model MANILA24_INDIA in shift 1
+2025-08-28 17:14:45,652 - INFO - Cleared previous data for model NICE25_POWER_INDIA
+2025-08-28 17:14:45,729 - INFO - Pushed 24 unique records for model NICE25_POWER_INDIA in shift 1
+2025-08-28 17:14:45,812 - INFO - Cleared previous data for model HOUSTON25_NA_SUPER
+2025-08-28 17:14:45,902 - INFO - Pushed 30 unique records for model HOUSTON25_NA_SUPER in shift 1
+2025-08-28 17:14:45,988 - INFO - Cleared previous data for model PRADO25_NA_SUPER
+2025-08-28 17:14:46,063 - INFO - Pushed 6 unique records for model PRADO25_NA_SUPER in shift 1
+2025-08-28 17:14:46,149 - INFO - Cleared previous data for model MILOS25_INDIA
+2025-08-28 17:14:46,249 - INFO - Pushed 35 unique records for model MILOS25_INDIA in shift 1
+2025-08-28 17:14:46,321 - INFO - Cleared previous data for model EXPLORER25_INDIA
+2025-08-28 17:14:46,398 - INFO - Pushed 8 unique records for model EXPLORER25_INDIA in shift 1
+2025-08-28 17:14:47,263 - INFO - Cleared previous data for model MALMO24_INDIA
+2025-08-28 17:14:47,346 - INFO - Pushed 6 unique records for model MALMO24_INDIA in shift 1
+2025-08-28 17:14:47,425 - INFO - Cleared previous data for model LAMULITE24_INDIA
+2025-08-28 17:14:47,494 - INFO - Pushed 10 unique records for model LAMULITE24_INDIA in shift 1
+2025-08-28 17:14:47,558 - INFO - Cleared previous data for model CANCUN5GNA24
+2025-08-28 17:14:47,611 - INFO - Pushed 1 unique records for model CANCUN5GNA24 in shift 1
+2025-08-28 17:14:47,797 - INFO - Cleaned up file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_06_44_39.xlsx
+2025-08-28 17:44:47,826 - INFO - Starting cycle for Shift 1 at 2025-08-28 17:44:47.826628
+2025-08-28 17:44:50,277 - INFO - Navigating to URL
+2025-08-28 17:44:55,362 - INFO - Selected Sector 68
+2025-08-28 17:44:59,729 - INFO - Set dates to today
+2025-08-28 17:45:00,868 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[2]/td[6]/input to 07:00:00
+2025-08-28 17:45:02,019 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[3]/td[6]/input to 19:00:00
+2025-08-28 17:45:02,093 - INFO - Clicked Generate Report
+2025-08-28 17:45:08,096 - INFO - Downloaded file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_07_15_06.xlsx
+2025-08-28 17:45:10,778 - INFO - Selected header row 215: ['Datetime', 'Track Id', 'NTF?', 'Technology', 'Family', 'Model', 'Process', 'Station', 'Fixture', 'Testcode', 'Testcode Desc', 'P/F', 'Fail Desc', 'Test Val', 'LL', 'UL', '2nd Datetime', '2nd Station', '2nd Fixture', '2nd P/F', '2nd Testcode', '2nd TestVal', '3rd Datetime', '3rd Station', '3rd Fixture', '3rd P/F', '3rd Testcode', '3rd TestVal', '4th Datetime', '4th Station', '4th Fixture', '4th P/F', '4th Testcode', '4th TestVal', '5th Datetime', '5th Station', '5th Fixture', '5th P/F', '5th Testcode', '5th TestVal']
+2025-08-28 17:45:10,999 - INFO - Filtered 133 unique rows with blank NTF?
+2025-08-28 17:45:11,002 - INFO - Found models: ['MANILA24_INDIA', 'HOUSTON25_NA_SUPER', 'PRADO25_NA_SUPER', 'MILOS25_INDIA', 'NICE25_POWER_INDIA', 'EXPLORER25_INDIA', 'MALMO24_INDIA', 'LAMULITE24_INDIA', 'CANCUN5GNA24']
+2025-08-28 17:45:11,044 - INFO - Cleared previous data for model MANILA24_INDIA
+2025-08-28 17:45:11,091 - INFO - Pushed 14 unique records for model MANILA24_INDIA in shift 1
+2025-08-28 17:45:11,132 - INFO - Cleared previous data for model HOUSTON25_NA_SUPER
+2025-08-28 17:45:11,172 - INFO - Pushed 30 unique records for model HOUSTON25_NA_SUPER in shift 1
+2025-08-28 17:45:11,213 - INFO - Cleared previous data for model PRADO25_NA_SUPER
+2025-08-28 17:45:11,253 - INFO - Pushed 4 unique records for model PRADO25_NA_SUPER in shift 1
+2025-08-28 17:45:11,297 - INFO - Cleared previous data for model MILOS25_INDIA
+2025-08-28 17:45:11,337 - INFO - Pushed 36 unique records for model MILOS25_INDIA in shift 1
+2025-08-28 17:45:11,383 - INFO - Cleared previous data for model NICE25_POWER_INDIA
+2025-08-28 17:45:11,423 - INFO - Pushed 23 unique records for model NICE25_POWER_INDIA in shift 1
+2025-08-28 17:45:11,463 - INFO - Cleared previous data for model EXPLORER25_INDIA
+2025-08-28 17:45:11,501 - INFO - Pushed 7 unique records for model EXPLORER25_INDIA in shift 1
+2025-08-28 17:45:11,545 - INFO - Cleared previous data for model MALMO24_INDIA
+2025-08-28 17:45:11,584 - INFO - Pushed 6 unique records for model MALMO24_INDIA in shift 1
+2025-08-28 17:45:11,626 - INFO - Cleared previous data for model LAMULITE24_INDIA
+2025-08-28 17:45:12,297 - INFO - Pushed 11 unique records for model LAMULITE24_INDIA in shift 1
+2025-08-28 17:45:12,338 - INFO - Cleared previous data for model CANCUN5GNA24
+2025-08-28 17:45:12,382 - INFO - Pushed 1 unique records for model CANCUN5GNA24 in shift 1
+2025-08-28 17:45:12,801 - INFO - Cleaned up file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_07_15_06.xlsx
+2025-08-29 09:14:23,027 - INFO - Starting script at 2025-08-29 09:14:23.027899
+2025-08-29 09:14:23,029 - INFO - Starting cycle for Shift 1 at 2025-08-29 09:14:23.028954
+2025-08-29 09:14:27,595 - INFO - Navigating to URL
+2025-08-29 09:14:34,330 - INFO - Selected Sector 68
+2025-08-29 09:14:39,066 - INFO - Set dates to today
+2025-08-29 09:14:40,299 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[2]/td[6]/input to 07:00:00
+2025-08-29 09:14:41,496 - INFO - Set time /html/body/form/div[3]/table[2]/tbody/tr[1]/td[1]/div/div[2]/div/div/table/tbody/tr[3]/td[6]/input to 19:00:00
+2025-08-29 09:14:51,235 - INFO - Clicked Generate Report
+2025-08-29 09:14:53,237 - INFO - Downloaded file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_10_44_50.xlsx
+2025-08-29 09:14:56,453 - INFO - Selected header row 57: ['Datetime', 'Track Id', 'NTF?', 'Technology', 'Family', 'Model', 'Process', 'Station', 'Fixture', 'Testcode', 'Testcode Desc', 'P/F', 'Fail Desc', 'Test Val', 'LL', 'UL', '2nd Datetime', '2nd Station', '2nd Fixture', '2nd P/F', '2nd Testcode', '2nd TestVal', '3rd Datetime', '3rd Station', '3rd Fixture', '3rd P/F', '3rd Testcode', '3rd TestVal', '4th Datetime', '4th Station', '4th Fixture', '4th P/F', '4th Testcode', '4th TestVal', '5th Datetime', '5th Station', '5th Fixture', '5th P/F', '5th Testcode', '5th TestVal']
+2025-08-29 09:14:56,589 - INFO - Filtered 36 unique rows with blank NTF?
+2025-08-29 09:14:56,589 - INFO - Found models: ['HOUSTON25_NA_SUPER', 'PRADO25_NA_SUPER', 'MILOS25_INDIA', 'NICE25_POWER_INDIA', 'MANILA24_INDIA', 'EXPLORER25_INDIA']
+2025-08-29 09:14:57,023 - INFO - Cleared previous data for model HOUSTON25_NA_SUPER
+2025-08-29 09:14:57,067 - INFO - Pushed 9 unique records for model HOUSTON25_NA_SUPER in shift 1
+2025-08-29 09:14:57,122 - INFO - Cleared previous data for model PRADO25_NA_SUPER
+2025-08-29 09:14:57,166 - INFO - Pushed 4 unique records for model PRADO25_NA_SUPER in shift 1
+2025-08-29 09:14:57,216 - INFO - Cleared previous data for model MILOS25_INDIA
+2025-08-29 09:14:57,255 - INFO - Pushed 7 unique records for model MILOS25_INDIA in shift 1
+2025-08-29 09:14:57,303 - INFO - Cleared previous data for model NICE25_POWER_INDIA
+2025-08-29 09:14:57,340 - INFO - Pushed 5 unique records for model NICE25_POWER_INDIA in shift 1
+2025-08-29 09:14:57,381 - INFO - Cleared previous data for model MANILA24_INDIA
+2025-08-29 09:14:57,421 - INFO - Pushed 4 unique records for model MANILA24_INDIA in shift 1
+2025-08-29 09:14:57,465 - INFO - Cleared previous data for model EXPLORER25_INDIA
+2025-08-29 09:14:57,506 - INFO - Pushed 6 unique records for model EXPLORER25_INDIA in shift 1
+2025-08-29 09:14:57,508 - INFO - Cleaned up file: C:\Users\admin\Documents\My Projects\MQS ErrorCodes\downloads\NPIBuildSummary28_08_25_10_44_50.xlsx
+2025-08-29 09:38:49,337 - INFO - Received shutdown signal, cleaning up...
+2025-08-29 09:38:49,881 - INFO - Received shutdown signal, cleaning up...
